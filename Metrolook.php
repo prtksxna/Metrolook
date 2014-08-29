@@ -64,7 +64,7 @@ $GLOBALS['wgVectorUseIconWatch'] = true;
 $GLOBALS['Logoshow'] = false;
 
 /* to enable search bar on the sidebar and disables the search bar on the top bar */
-$GLOBALS['SearchBar'] = false;
+$GLOBALS['SearchBar'] = true;
 
 // Register modules
 $GLOBALS['wgResourceModules']['skins.metrolook.styles'] = array(
