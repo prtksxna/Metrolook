@@ -60,8 +60,11 @@ $GLOBALS['wgVectorUseSimpleSearch'] = true;
  */
 $GLOBALS['wgVectorUseIconWatch'] = true;
 
+/* To enable logo. Note that if enabled it will not show properly.*/
 $GLOBALS['Logoshow'] = false;
-$GLOBALS['SearchBar'] = true;
+
+/* to enable search bar on the sidebar and disables the search bar on the top bar */
+$GLOBALS['SearchBar'] = false;
 
 // Register modules
 $GLOBALS['wgResourceModules']['skins.metrolook.styles'] = array(
