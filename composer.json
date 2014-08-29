@@ -1,0 +1,47 @@
+{
+	"name"       : "mediawiki/metrolook-skin",
+	"type"       : "mediawiki-skin",
+	"description": "A skin for mediawiki",
+	"keywords"   : [
+		"wiki",
+		"MediaWiki",
+		"skin"
+	],
+	"homepage"   : "https://www.mediawiki.org/wiki/Skin:Metrolook",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name" : "immewnity"
+		},
+		{
+			"name" : "paladox2015"
+		},
+        {
+            "name": "Craig Davison"
+        },
+		{
+			"name" : "lagleki"
+		}
+	],
+	"support"    : {
+		"wiki"  : "https://www.mediawiki.org/wiki/Skin:Metrolook",
+		"forum" : "https://www.mediawiki.org/wiki/Skin_talk:Metrolook",
+		"source": "https://github.com/paladox2015/Metrolook",
+		"irc"   : "irc://irc.freenode.org/mediawiki"
+	},
+	"require"    : {
+		"php"                : ">=5.3.2",
+		"composer/installers": ">1.0.12"
+	},
+	"autoload"   : {
+		"files": [
+			"Metrolook.php"
+		]
+	},
+	"extra"      : {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		}
+	}
+}
+
