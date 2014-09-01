@@ -26,7 +26,7 @@ $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
 	'name' => 'Metrolook',
 	'description' => 'Metrolook skin for MediaWiki.',
-	'version' => '1.0.3',
+	'version' => '1.1.1',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Metrolook',
 	'author' => array( 'immewnity', 'paladox2015', 'Craig Davison', 'lagleki' ),
 	'license-name' => 'GPLv2+',
@@ -42,21 +42,36 @@ $wgValidSkinNames['metrolook'] = 'Metrolook';
 // Register modules
 $wgResourceModules['skins.metrolook.styles'] = array(
 	'styles' => array(
-		'screen.css' => array( 'media' => 'screen' ),
+		'Metrolook/screen.less' => array( 'media' => 'screen' ),
+		'Metrolook/screen-hd.less' => array( 'media' => 'screen and (min-width: 982px)' ),
+		'Metrolook/special.less',
+		'Metrolook/special.preferences.less',
 	),
-	'remoteSkinPath' => 'Metrolook',
-	'localBasePath' => __DIR__,
+	'remoteBasePath' => &$GLOBALS['wgStylePath'],
+	'localBasePath' => &$GLOBALS['wgStyleDirectory'],
 );
 $wgResourceModules['skins.metrolook.js'] = array(
 	'scripts' => array(
-		'collapsibleTabs.js',
-		'vector.js',
+		'Metrolook/collapsibleTabs.js',
+		'Metrolook/vector.js',
 	),
 	'position' => 'top',
 	'dependencies' => array(
 		'jquery.throttle-debounce',
-		'jquery.tabIndex',
 	),
-	'remoteSkinPath' => 'Metrolook',
-	'localBasePath' => __DIR__,
+	'remoteBasePath' => &$GLOBALS['wgStylePath'],
+	'localBasePath' => &$GLOBALS['wgStyleDirectory'],
+);
+$wgResourceModules['skins.metrolook.collapsibleNav'] = array(
+	'scripts' => array(
+		'Metrolook/collapsibleNav.js',
+	),
+	'position' => 'bottom',
+	'dependencies' => array(
+			'jquery.client',
+			'jquery.cookie',
+			'jquery.tabIndex',
+		),
+	'remoteBasePath' => &$GLOBALS['wgStylePath'],
+	'localBasePath' => &$GLOBALS['wgStyleDirectory'],
 );
