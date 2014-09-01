@@ -24,15 +24,36 @@ https://github.com/paladox2015/Metrolook/tree/MediaWiki-1.21
 
 Please be aware that there are issues in the codes if you see any could you point it out it would help. and there are things like logos already set sorry i will put a setting there.
 
-A working demo of the skin is available at http://pidgi.net/metrolooktest/index.php/Main_Page . This is currently using MediaWiki 1.24wmf16 and version 2.2.2 of the master branch of the skin.
+A working demo of the skin is available at http://pidgi.net/metrolooktest/index.php/Main_Page . This is currently using MediaWiki 1.24wmf18 and version 2.3 of the master branch of the skin.
 
 
-Known Issues
+## Settings
+
+1.24 only
+
+To enable logo
+
+$Logoshow = true;
+
+Default is
+
+$Logoshow = false;
+
+To enable sidebar search bar
+
+$SearchBar = false;
+
+Default is
+
+$SearchBar = true;
+
+
+## Known Issues
 
 * Mobile view of desktop is not shown correcly.
 
 
-Version
+## Version
 
 2.x.x requires MediaWiki 1.24.
 
