@@ -43,7 +43,7 @@ $wgValidSkinNames['metrolook'] = 'Metrolook';
 $Logoshow = false;
 
 /* to enable search bar on the sidebar and disables the search bar on the top bar */
-$SearchBar = false;
+$SearchBar = true;
 
 // Register modules
 $wgResourceModules['skins.metrolook.styles'] = array(
