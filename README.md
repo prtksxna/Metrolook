@@ -66,8 +66,8 @@ $SearchBar = true;
 
 Please do not remove this section. it is for things that have been removed and used for if something goes wrong and th eproblem was because it was removed then they can use the things here.
 
-/*
+```html
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' defer="defer" rel='stylesheet' type='text/css'>
 <meta name="msapplication-TileImage" content="http://www.pidgi.net/new/public/images/pidgiwiki.png"/>
 <meta name="msapplication-TileColor" content="#BE0027"/>
-*/
+```
