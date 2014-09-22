@@ -51,6 +51,56 @@ Default is
 
 $SearchBar = true;
 
+## Customizing top bar color
+
+To customise top bar colour add the following to MediaWiki:common.css
+
+and all you need to do is edit background-colour and the top bar should change colour but please remember there is also hover which is when you hover it goes a different colour.
+
+<pre>
+/* Top Bar colour and hover colour start */
+ 
+#mw-page-base {
+	height: 2.5em;
+	background-color: dodgerBlue;
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	/* This image is only a fallback (for IE 6-9), so we do not @embed it. */
+	background-image: url('images/page-fade.png');
+}
+ 
+div.vectorTabs a:hover {
+         background-color: blue;
+}
+ 
+div.onhoverbg:hover {
+         background-color: blue;
+}
+ 
+img.custom3:hover{
+            background-color: blue;
+}
+ 
+div.vectorMenu:hover h5 a {
+           background-color: blue;
+}
+ 
+div.vectorMenu h5 a {
+        display: inline-block;
+	width: 24px;
+	height: 2em;
+	background-color: dodgerBlue; 
+	.background-image-svg('images/arrow-down-icon.svg', 'images/arrow-down-icon.png');
+	background-position: 50% 50%; 
+	background-repeat: no-repeat;
+	.transition(background-position 250ms);
+}
+div.vectorMenu:hover {
+           background-color: blue;
+}
+ 
+/* Top Bar colour and hover colour end */
+</pre>
 
 ## Known Issues
 
