@@ -51,8 +51,9 @@ Default is
 
 $SearchBar = true;
 
-$GLOBALS['DownArrow'] = true;
+Default is
 
+$DownArrow = true;
 
 To turn it off
 
