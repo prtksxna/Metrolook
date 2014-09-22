@@ -62,11 +62,15 @@ Default is
 
 $DownArrow = true;
 
-to turn it of is 
+to change link
 
 $link1 = false;
 
 $image1 = false;
+
+$url1 = link of website;
+
+$picture1 = image link;
 
 Default is
 
@@ -74,11 +78,15 @@ $link1 = true;
 
 $image1 = true;
 
-to turn it of is 
+to change link
 
 $link2 = false;
 
 $image2 = false;
+
+$url2 = link of website;
+
+$picture2 = image link;
 
 Default is
 
@@ -86,11 +94,15 @@ $link2 = true;
 
 $image2 = true;
 
-to turn it of is 
+to change link
 
 $link3 = false;
 
 $image3 = false;
+
+$url3 = link of website;
+
+$picture3 = image link;
 
 Default is
 
@@ -98,11 +110,15 @@ $link3 = true;
 
 $image3 = true;
 
-to turn it of is 
+to change link
 
 $link4 = false;
 
 $image4 = false;
+
+$url4 = link of website;
+
+$picture4 = image link;
 
 Default is
 
@@ -122,6 +138,10 @@ $link5 = true;
 
 $image5 = true;
 
+$url5 = link of website;
+
+$picture5 = image link;
+
 Default is
 
 $link6 = false;
@@ -130,9 +150,13 @@ $image6 = false;
 
 to turn it on
 
-$link6 = false;
+$link6 = true;
 
-$image6 = false;
+$image6 = true;
+
+$url6 = link of website;
+
+$picture6 = image link;
 
 ## Customizing top bar color
 
