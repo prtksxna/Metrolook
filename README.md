@@ -59,7 +59,7 @@ and all you need to do is edit background-colour and the top bar should change c
 
 <pre>
 /* Top Bar colour and hover colour start */
- 
+
 #mw-page-base {
 	height: 2.5em;
 	background-color: dodgerBlue;
@@ -68,23 +68,23 @@ and all you need to do is edit background-colour and the top bar should change c
 	/* This image is only a fallback (for IE 6-9), so we do not @embed it. */
 	background-image: url('images/page-fade.png');
 }
- 
+
 div.vectorTabs a:hover {
          background-color: blue;
 }
- 
+
 div.onhoverbg:hover {
          background-color: blue;
 }
- 
+
 img.custom3:hover{
             background-color: blue;
 }
- 
+
 div.vectorMenu:hover h5 a {
            background-color: blue;
 }
- 
+
 div.vectorMenu h5 a {
         display: inline-block;
 	width: 24px;
@@ -95,10 +95,25 @@ div.vectorMenu h5 a {
 	background-repeat: no-repeat;
 	.transition(background-position 250ms);
 }
+
 div.vectorMenu:hover {
            background-color: blue;
 }
- 
+
+div.vectorMenu ul {
+        position: absolute;
+        background-color: white;
+	border: solid 2px dodgerBlue;
+	border-top-width: 0;
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0;
+	padding-top:5px;
+	margin: 0;
+	margin-left: -6px;
+	text-align: left;
+}
+
 /* Top Bar colour and hover colour end */
 </pre>
 
