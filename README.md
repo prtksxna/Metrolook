@@ -51,6 +51,89 @@ Default is
 
 $SearchBar = true;
 
+$GLOBALS['DownArrow'] = true;
+
+
+To turn it off
+
+$DownArrow = false;
+
+Default is
+
+$DownArrow = true;
+
+to turn it of is 
+
+$link1 = false;
+
+$image1 = false;
+
+Default is
+
+$link1 = true;
+
+$image1 = true;
+
+to turn it of is 
+
+$link2 = false;
+
+$image2 = false;
+
+Default is
+
+$link2 = true;
+
+$image2 = true;
+
+to turn it of is 
+
+$link3 = false;
+
+$image3 = false;
+
+Default is
+
+$link3 = true;
+
+$image3 = true;
+
+to turn it of is 
+
+$link4 = false;
+
+$image4 = false;
+
+Default is
+
+$link4 = true;
+
+$image4 = true;
+
+Default is
+
+$link5 = false;
+
+$image5 = false;
+
+to turn it on
+
+$link5 = true;
+
+$image5 = true;
+
+Default is
+
+$link6 = false;
+
+$image6 = false;
+
+to turn it on
+
+$link6 = false;
+
+$image6 = false;
+
 ## Customizing top bar color
 
 To customise top bar colour add the following to MediaWiki:common.css
