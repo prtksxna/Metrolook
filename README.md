@@ -168,6 +168,14 @@ $url6 = link of website;
 
 $picture6 = image link;
 
+To disable upload Button on top bar please add this to LocalSettings.php
+
+$UploadButton = false;
+
+Default is
+
+$UploadButton = true;
+
 ## Customizing top bar color
 
 To customise top bar colour add the following to MediaWiki:common.css
