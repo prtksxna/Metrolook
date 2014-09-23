@@ -30,6 +30,15 @@ Please be aware that there are issues in the codes if you see any could you poin
 
 A working demo of the skin is available at http://pidgi.net/metrolooktest/index.php/Main_Page . This is currently using MediaWiki 1.24wmf18 and version 2.3 of the master branch of the skin.
 
+## Installation
+
+Download and save in skins/ folder 
+
+Add this to LocalSettings.php
+
+<pre>
+require_once "$IP/skins/Metrolook/Metrolook.php";
+</pre>
 
 ## Settings
 
@@ -51,8 +60,9 @@ Default is
 
 $SearchBar = true;
 
-$GLOBALS['DownArrow'] = true;
+Default is
 
+$DownArrow = true;
 
 To turn it off
 
