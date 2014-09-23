@@ -65,6 +65,7 @@ class MetrolookTemplate extends BaseTemplate {
 		global $link6;
 		global $picture6;
 		global $url6;
+		global $UploadButton;
 
 		// Build additional attributes for navigation urls
 		$nav = $this->data['content_navigation'];
@@ -408,7 +409,7 @@ echo htmlspecialchars( $this->getSkin()->getUser()->getName() );
 <?php else: ?>
 <?php endif; ?>
 			<div id="left-navigation">
-				<a href="<?php echo $this->data['nav_urls']['upload']['href']; ?>"><div class="onhoverbg" style="padding-left:0.8em;padding-right:0.8em;float:left;height:40px;font-size:10pt;"><img class="custom" src="/skins/Metrolook/images/Transparent.gif"/> <span style="color:#fff;position:relative;top:3px; "><?php $this->msg('uploadbtn') ?></span></div></a><?php $this->renderNavigation( array( 'NAMESPACES', 'VARIANTS', 'VIEWS', 'ACTIONS' ) ); ?>
+				<?php if ( $UploadButton ): ?><a href="<?php echo $this->data['nav_urls']['upload']['href']; ?>"><div class="onhoverbg" style="padding-left:0.8em;padding-right:0.8em;float:left;height:40px;font-size:10pt;"><img class="custom" src="/skins/Metrolook/images/Transparent.gif"/> <span style="color:#fff;position:relative;top:3px; "><?php $this->msg('uploadbtn') ?></span></div></a><?php else: ?><?php endif; ?><?php $this->renderNavigation( array( 'NAMESPACES', 'VARIANTS', 'VIEWS', 'ACTIONS' ) ); ?>
 			</div>
 			<div id="right-navigation">
 				<?php if ( $SearchBar ): ?>
