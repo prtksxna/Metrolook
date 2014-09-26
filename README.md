@@ -53,6 +53,7 @@ $logo = true;
 Default is
 
 //$Logoshow = false;
+
 $logo = false;
 
 To enable sidebar search bar
