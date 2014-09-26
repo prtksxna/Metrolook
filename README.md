@@ -178,7 +178,7 @@ $UploadButton = true;
 
 ## Customizing top bar color
 
-To customise top bar colour add the following to MediaWiki:common.css
+To customise top bar colour ether add it to theme.css which is in metrolook skin folder or MediaWiki:Metrolook.css from web browser.
 
 and all you need to do is edit background-colour and the top bar should change colour but please remember there is also hover which is when you hover it goes a different colour.
 
@@ -264,4 +264,17 @@ Please do not remove this section. it is for things that have been removed and u
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' defer="defer" rel='stylesheet' type='text/css'>
 <meta name="msapplication-TileImage" content="http://www.pidgi.net/new/public/images/pidgiwiki.png"/>
 <meta name="msapplication-TileColor" content="#BE0027"/>
+```
+
+```html
+				<?php if ( $Logoshow ): ?>
+				<div id="p-logo" role="banner"><a style="background-image: url(<?php
+					$this->text( 'logopath' )
+					?>);" href="<?php
+					echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] )
+					?>" <?php
+					echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) )
+					?>></a></div>
+					<?php else: ?>
+				<?php endif; ?>
 ```
