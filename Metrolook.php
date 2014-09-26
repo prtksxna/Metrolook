@@ -61,7 +61,7 @@ $GLOBALS['wgVectorUseSimpleSearch'] = true;
 $GLOBALS['wgVectorUseIconWatch'] = true;
 
 /* To enable logo. Note that if enabled it will not show properly.*/
-$GLOBALS['Logoshow'] = false;
+$GLOBALS['Logoshow'] = true;
 
 /* to enable search bar on the sidebar and disables the search bar on the top bar */
 $GLOBALS['SearchBar'] = true;
@@ -94,11 +94,14 @@ $GLOBALS['image6'] = false;
 
 $GLOBALS['UploadButton'] = true;
 
+$GLOBALS['logo'] = false;
+
 // Register modules
 $GLOBALS['wgResourceModules']['skins.metrolook.styles'] = array(
 	'styles' => array(
 		'screen.less' => array( 'media' => 'screen' ),
 		'screen-hd.less' => array( 'media' => 'screen and (min-width: 982px)' ),
+		'theme.css' => array( 'media' => 'screen' ),
 	),
 	'remoteSkinPath' => 'Metrolook',
 	'localBasePath' => __DIR__,

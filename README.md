@@ -178,7 +178,7 @@ $UploadButton = true;
 
 ## Customizing top bar color
 
-To customise top bar colour add the following to MediaWiki:Metrolook.css
+To customise top bar colour ether add it to theme.css which is in metrolook skin folder or MediaWiki:Metrolook.css from web browser.
 
 and all you need to do is edit background-colour and the top bar should change colour but please remember there is also hover which is when you hover it goes a different colour.
 
