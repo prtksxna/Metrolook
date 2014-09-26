@@ -42,15 +42,18 @@ require_once "$IP/skins/Metrolook/Metrolook.php";
 
 ## Settings
 
-1.24 only
+1.25 only
 
 To enable logo
 
-$Logoshow = true;
+//$Logoshow = true;
+
+$logo = true;
 
 Default is
 
-$Logoshow = false;
+//$Logoshow = false;
+$logo = false;
 
 To enable sidebar search bar
 
