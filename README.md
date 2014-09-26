@@ -8,11 +8,8 @@ The author of the skin is http://www.pidgi.net/wiki/Main_Page
 
 Compatible with MediaWiki 1.24+
 
-If you would like compatibility with mediawiki 1.24, 1.23, 1.22 or 1.21 please visit 
+If you would like compatibility with mediawiki 1.23, 1.22 or 1.21 please visit 
 
-1.24
-
-https://github.com/paladox2015/Metrolook/tree/MediaWiki-1.24
 
 1.23
 
@@ -46,11 +43,15 @@ require_once "$IP/skins/Metrolook/Metrolook.php";
 
 To enable logo
 
-$Logoshow = true;
+//$Logoshow = true;
+
+$logo = true;
 
 Default is
 
-$Logoshow = false;
+//$Logoshow = false;
+
+$logo = false;
 
 To enable sidebar search bar
 
