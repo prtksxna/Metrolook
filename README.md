@@ -10,6 +10,8 @@ Compatible with MediaWiki 1.24+
 
 If you would like compatibility with mediawiki 1.24, 1.23, 1.22 or 1.21 please visit 
 
+currently we have a branch for mediawiki 1.22 and 1.21 but we doint support just yet please upgrade to mediawiki 1.23 or 1.24 to either 1.3 or 2.4.3.
+
 1.24
 
 https://github.com/paladox2015/Metrolook/tree/MediaWiki-1.24
@@ -250,6 +252,14 @@ div.vectorMenu ul {
 
 * Mobile view of desktop is not shown correcly.
 
+## Version
+
+Note plans may change.
+
+Cumming soon support for 
+
+* MediaWiki 1.22
+* MediaWiki 1.21
 
 ## Version
 
