@@ -14,19 +14,19 @@ currently we have a branch for mediawiki 1.22 and 1.21 but we doint support just
 
 1.24
 
-https://github.com/paladox2015/Metrolook/tree/MediaWiki-1.24
+https://github.com/paladox2015/Metrolook/tree/REL1_24
 
 1.23
 
-https://github.com/paladox2015/Metrolook/tree/MediaWiki-1.23
+https://github.com/paladox2015/Metrolook/tree/REL1_23
 
 1.22
 
-https://github.com/paladox2015/Metrolook/tree/MediaWiki-1.22
+https://github.com/paladox2015/Metrolook/tree/REL1-22
 
 1.21
 
-https://github.com/paladox2015/Metrolook/tree/MediaWiki-1.21
+https://github.com/paladox2015/Metrolook/tree/REL1_21
 
 Please be aware that there are issues in the codes if you see any could you point it out it would help. and there are things like logos already set sorry i will put a setting there.
 
