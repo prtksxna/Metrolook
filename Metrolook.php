@@ -1,7 +1,6 @@
 <?php
 /**
- * Vector - Modern version of MonoBook with fresh look and many usability
- * improvements.
+ * Metrolook - Metro look for website.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,7 +25,7 @@ $wgExtensionCredits['skin'][] = array(
 	'path' => __FILE__,
 	'name' => 'Metrolook',
 	'description' => 'Metrolook skin for MediaWiki.',
-	'version' => '1.0.3',
+	'version' => '1.3.6',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Metrolook',
 	'author' => array( 'immewnity', 'paladox2015', 'Craig Davison', 'lagleki' ),
 	'license-name' => 'GPLv2+',
@@ -39,10 +38,21 @@ $wgAutoloadClasses['MetrolookTemplate'] = __DIR__ . '/MetrolookTemplate.php';
 // Register skin
 $wgValidSkinNames['metrolook'] = 'Metrolook';
 
+/* To enable logo. Note that if enabled it will not show properly.*/
+
+/* to enable search bar on the sidebar and disables the search bar on the top bar */
+$SearchBar = false;
+
 // Register modules
 $wgResourceModules['skins.metrolook.styles'] = array(
 	'styles' => array(
-		'Metrolook/screen.css' => array( 'media' => 'screen' ),
+		'common/commonElements.css' => array( 'media' => 'screen' ),
+		'common/commonContent.css' => array( 'media' => 'screen' ),
+		'common/commonInterface.css' => array( 'media' => 'screen' ),
+		'Metrolook/screen.less' => array( 'media' => 'screen' ),
+		'Metrolook/theme.less' => array( 'media' => 'screen' ),
+		'Metrolook/special.less',
+		'Metrolook/special.preferences.less',
 	),
 	'remoteBasePath' => &$GLOBALS['wgStylePath'],
 	'localBasePath' => &$GLOBALS['wgStyleDirectory'],
@@ -55,8 +65,20 @@ $wgResourceModules['skins.metrolook.js'] = array(
 	'position' => 'top',
 	'dependencies' => array(
 		'jquery.throttle-debounce',
-		'jquery.tabIndex',
 	),
+	'remoteBasePath' => &$GLOBALS['wgStylePath'],
+	'localBasePath' => &$GLOBALS['wgStyleDirectory'],
+);
+$wgResourceModules['skins.metrolook.collapsibleNav'] = array(
+	'scripts' => array(
+		'Metrolook/collapsibleNav.js',
+	),
+	'position' => 'bottom',
+	'dependencies' => array(
+			'jquery.client',
+			'jquery.cookie',
+			'jquery.tabIndex',
+		),
 	'remoteBasePath' => &$GLOBALS['wgStylePath'],
 	'localBasePath' => &$GLOBALS['wgStyleDirectory'],
 );
