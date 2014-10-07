@@ -16,7 +16,7 @@ https://github.com/paladox2015/Metrolook/tree/REL1_24
 
 1.23
 
-https://github.com/paladox2015/Metrolook/tree/REL1-23
+https://github.com/paladox2015/Metrolook/tree/REL1_23
 
 1.21
 
