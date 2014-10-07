@@ -258,7 +258,6 @@ Note plans may change.
 
 Cumming soon support for 
 
-* MediaWiki 1.22 - comming soon
 * MediaWiki 1.21
 
 ## Version
@@ -268,6 +267,8 @@ Cumming soon support for
 2.x.x requires MediaWiki 1.24.
 
 1.x.x requires MediaWiki 1.23.
+
+0.3.x requires MediaWiki 1.22.
 
 
 ## Removed things
