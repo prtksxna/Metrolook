@@ -258,7 +258,8 @@ Note plans may change.
 
 Cumming soon support for 
 
-* MediaWiki 1.22 - Currently being reviewed to see if any one wants support for this.
+* MediaWiki 1.22 - comming soon
+* MediaWiki 1.21
 
 ## Version
 
