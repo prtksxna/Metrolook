@@ -261,6 +261,7 @@ div.vectorMenu ul {
 
 1.x.x requires MediaWiki 1.23.
 
+0.3.x requires MediaWiki 1.22.
 
 ## Removed things
 
