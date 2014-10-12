@@ -134,7 +134,18 @@ class MetrolookTemplate extends BaseTemplate {
 		$this->html( 'headelement' );
 ?>
     <style>
-
+body {
+    height:100%;
+}
+html {
+    height:100%;
+}
+html,
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+    height:100%;
+}
 #top-tile-bar {
 	background:transparent;
 	left: 0px;
