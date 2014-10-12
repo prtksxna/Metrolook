@@ -13,19 +13,19 @@
 
 /* Framework */
 html {
-	font-size: @html-font-size;
+        font-size: @html-font-size;
 }
 html,
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	font-family: @content-font-family;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: @content-font-family;
 }
 body {
-	background-color: #f3f3f3;
-	/* @embed */
-	background-image: url(images/page-base.png);
+        background-color: #f3f3f3;
+        /* @embed */
+        background-image: url(images/page-base.png);
 }
 /* Content */
 div#content {
@@ -122,22 +122,22 @@ img.custom4 {
 }
 /* Head */
 #mw-page-base {
-	height: 2.5em;
-	background-color: #CF8B54;
-	background-position: bottom left;
-	background-repeat: repeat-x;
-	/* This image is only a fallback (for IE 6-9), so we do not @embed it. */
-	background-image: url('images/page-fade.png');
+        height: 2.5em;
+        background-color: #CF8B54;
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        /* This image is only a fallback (for IE 6-9), so we do not @embed it. */
+        background-image: url('images/page-fade.png');
 }
 @media all and (max-width: 1000px) and (min-width: 700px) {
    #mw-page-base {
-	height: 2.5em;
-	background-color: #CF8B54;
-	background-position: bottom left;
-	background-repeat: repeat-x;
-	/* This image is only a fallback (for IE 6-9), so we do not @embed it. */
-	background-image: url('images/page-fade.png');
-    width:65em;
+        height: 2.5em;
+        background-color: #CF8B54;
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        /* This image is only a fallback (for IE 6-9), so we do not @embed it. */
+        background-image: url('images/page-fade.png');
+        min-width:65em;
 }
 }
 #mw-head-base {
@@ -147,23 +147,22 @@ img.custom4 {
 }
 div#mw-head {
 	position: absolute;
-	top: -5px;
-	right: 0;
-	width: 100%;
+        top: -5px;
+        width: 100%;
 }
 div#mw-head h5 {
-	margin: 0;
-	padding: 0;
+        margin: 0;
+        padding: 0;
 }
 @media all and (max-width: 1000px) and (min-width: 700px) {
     div#mw-head {
-	position: absolute;
-	top: 0;
-	width: 106%;
+        position: absolute;
+        top: -5px;
+        min-width: 106%;
 
 	h5 {
-		margin: 0;
-		padding: 0;
+	        margin: 0;
+	        padding: 0;
 	}
 }
 }
