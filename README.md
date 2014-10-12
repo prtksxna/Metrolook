@@ -191,6 +191,18 @@ This customise changes it to blue for background and dark blue for hover change 
 	background-image: url('images/page-fade.png');
 }
 
+@media all and (max-width: 1000px) and (min-width: 700px) {
+   #mw-page-base {
+	height: 2.5em;
+	background-color: dodgerBlue;
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	/* This image is only a fallback (for IE 6-9), so we do not @embed it. */
+	background-image: url('images/page-fade.png');
+        min-width:65em;
+}
+}
+
 div.vectorTabs a:hover {
          background-color: blue;
 }
