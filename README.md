@@ -269,7 +269,7 @@ div.vectorMenu ul {
 
 Note plans may change.
 
-Cumming soon support for 
+Comming soon support for 
 
 * MediaWiki 1.21
 
