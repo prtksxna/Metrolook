@@ -230,9 +230,7 @@ $(function () {
   });
 });
     </script>
-<script src="skins/Metrolook/overthrow.js"></script>
-<script src="/skins/Metrolook/overthrow.js"></script>
-<script src="../skins/Metrolook/overthrow.js"></script>
+<script src="<?php echo htmlspecialchars( $this->getSkin()->getSkinStylePath( 'overthrow.js' ) ) ?>"></script>
 		<div id="mw-page-base" class="noprint"></div>
 		<div id="mw-head-base" class="noprint"></div>
 		<div id="content" class="mw-body" class="overthrow" role="main">
