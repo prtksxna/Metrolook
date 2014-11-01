@@ -38,35 +38,7 @@ class MetrolookTemplate extends BaseTemplate {
 	 */
 	public function execute() {
 		global $wgVectorUseIconWatch;
-		global $Logoshow;
 		global $SearchBar;
-		global $DownArrow;
-		global $image1;
-		global $link1;
-		global $picture1;
-		global $url1;
-		global $image2;
-		global $link2;
-		global $picture2;
-		global $url2;
-		global $image3;
-		global $link3;
-		global $picture3;
-		global $url3;
-		global $image4;
-		global $link4;
-		global $picture4;
-		global $url4;
-		global $image5;
-		global $link5;
-		global $picture5;
-		global $url5;
-		global $image6;
-		global $link6;
-		global $picture6;
-		global $url6;
-		global $UploadButton;
-		global $logo;
 
 		// Build additional attributes for navigation urls
 		$nav = $this->data['content_navigation'];
