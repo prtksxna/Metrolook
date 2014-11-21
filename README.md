@@ -266,7 +266,7 @@ div.vectorMenu ul {
 
 * Mobile view of desktop is not shown correcly.
 
-## Version
+## Support comming soon
 
 Note plans may change.
 
