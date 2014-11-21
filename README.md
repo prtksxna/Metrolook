@@ -56,10 +56,6 @@ Default is
 
 $SearchBar = true;
 
-Default is
-
-$DownArrow = true;
-
 To turn it off
 
 $DownArrow = false;
@@ -67,6 +63,14 @@ $DownArrow = false;
 Default is
 
 $DownArrow = true;
+
+To turn it off
+
+$Line = false;
+
+Default is
+
+$Line = true;
 
 to change link
 
