@@ -37,7 +37,6 @@ class MetrolookTemplate extends BaseTemplate {
 	 * Outputs the entire contents of the (X)HTML page
 	 */
 	public function execute() {
-		global $Logoshow;
 		global $SearchBar;
 		global $DownArrow;
 		global $image1;
