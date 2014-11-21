@@ -1,6 +1,5 @@
 <?php
 /**
- * 
  * Metrolook - Metro look for website.
  *
  * This program is free software; you can redistribute it and/or modify
