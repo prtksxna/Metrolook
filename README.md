@@ -228,13 +228,13 @@ div.vectorMenu:hover h5 a {
 
 div.vectorMenu h5 a {
         display: inline-block;
-	width: 24px;
-	height: 2em;
-	background-color: dodgerBlue; 
-	.background-image-svg('images/arrow-down-icon.svg', 'images/arrow-down-icon.png');
-	background-position: 50% 50%; 
-	background-repeat: no-repeat;
-	.transition(background-position 250ms);
+        width: 24px;
+        height: 2em;
+        background-color: dodgerBlue; 
+        .background-image-svg('images/arrow-down-icon.svg', 'images/arrow-down-icon.png');
+        background-position: 50% 50%; 
+        background-repeat: no-repeat;
+        .transition(background-position 250ms);
 }
 div.vectorMenu:hover {
         background-color: blue;
@@ -243,15 +243,15 @@ div.vectorMenu:hover {
 div.vectorMenu ul {
         position: absolute;
         background-color: white;
-	border: solid 2px dodgerBlue;
-	border-top-width: 0;
-	list-style-type: none;
-	list-style-image: none;
-	padding: 0;
-	padding-top:5px;
-	margin: 0;
-	margin-left: -6px;
-	text-align: left;
+        border: solid 2px dodgerBlue;
+        border-top-width: 0;
+        list-style-type: none;
+        list-style-image: none;
+        padding: 0;
+        padding-top:5px;
+        margin: 0;
+        margin-left: -6px;
+        text-align: left;
 }
 
 /* Top Bar colour and hover colour end */
