@@ -38,7 +38,7 @@ require_once "$IP/skins/Metrolook/Metrolook.php";
 
 ## Settings
 
-1.25 only
+1.24 only
 
 To enable logo
 
