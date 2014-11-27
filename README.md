@@ -42,11 +42,13 @@ require_once "$IP/skins/Metrolook/Metrolook.php";
 
 To enable logo
 
-$Logoshow = true;
-
 Default is
 
-$Logoshow = false;
+$logo = false;
+
+To turn it on
+
+$logo = true;
 
 To enable sidebar search bar
 
@@ -66,7 +68,11 @@ $DownArrow = false;
 
 Default is
 
-$DownArrow = true;
+$Line = true;
+
+To turn it off
+
+$Line = false;
 
 to change link
 
