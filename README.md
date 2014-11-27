@@ -42,11 +42,9 @@ require_once "$IP/skins/Metrolook/Metrolook.php";
 
 To enable logo
 
+$logo = true;
+
 Default is
-
-$logo = false;
-
-To turn it on
 
 $logo = true;
 
