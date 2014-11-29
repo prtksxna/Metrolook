@@ -24,7 +24,7 @@
 $GLOBALS['wgExtensionCredits']['skin'][] = array(
 	'path' => __FILE__,
 	'name' => 'Metrolook',
-	'description' => 'metrolook-desc',
+	'descriptionmsg' => 'metrolook-desc',
 	'version' => '2.4.11',
 	'url' => 'https://www.mediawiki.org/wiki/Skin:Metrolook',
 	'author' => array( 'immewnity', 'paladox2015', 'Craig Davison', 'lagleki' ),
