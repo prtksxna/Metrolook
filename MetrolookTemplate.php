@@ -40,7 +40,7 @@ class MetrolookTemplate extends BaseTemplate {
 		global $logo;
 		global $SearchBar;
 		global $DownArrow;
-		global $Line;		
+		global $Line;
 		global $image1;
 		global $link1;
 		global $picture1;
