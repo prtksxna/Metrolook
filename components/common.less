@@ -127,7 +127,107 @@ body {
 
 /* Content */
 /* different screen sizes */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.mw-body {
+    margin-left: 11em;
+    padding: 1.25em 1.5em 1.5em 1.5em;
+    /* @embed */
+    background-image: url(images/border.png);
+    background-position: top left;
+    background-repeat: repeat-y;
+    background-color: white;
+    color: black;
+    direction: ltr;
+    height:auto;
+    position:absolute;
+    bottom:0;
+    right:-60px;
+    left:0;
+    top:40px;
+    overflow:auto;
+    -webkit-overflow-scrolling: touch;
+
+	.mw-editsection,
+	.mw-editsection-like {
+		font-family: @content-font-family;
+	}
+
+	p {
+		line-height: inherit;
+		margin: 0.5em 0;
+	}
+
+	h2 {
+		font-family: @content-heading-font-family;
+		line-height: @heading-line-height;
+		margin-bottom: 0.25em;
+		padding: 0;
+	}
+
+	h1 {
+		font-size: @content-heading-font-size;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		margin-top: 1em;
+	}
+
+	h3,
+	h4,
+	h5,
+	h6 {
+		line-height: @content-line-height;
+		margin-top: 0.3em;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	h3 {
+		font-size: 1.17em;
+	}
+
+	h3,
+	h4 {
+		font-weight: bold;
+	}
+
+	h4,
+	h5,
+	h6 {
+		font-size: 100%; /* (reset) */
+	}
+
+	#toc h2,
+	.toc h2 {
+		font-size: 100%; /* (reset) */
+		font-family: @content-font-family;
+	}
+
+    .firstHeading {
+        /* Change the default from mediawiki.skinning CSS to let indicators float into heading area */
+        overflow: visible;
+	}
+
+    .mw-indicators {
+        float: right;
+        line-height: @content-line-height;
+        font-size: @content-font-size;
+        /* Ensure that this is displayed on top of .mw-body-content and clickable */
+        position: relative;
+        z-index: 1;
+    }
+
+    .mw-indicator {
+        display: -moz-inline-block;
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+	}
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 .mw-body {
     margin-left: 11em;
     padding: 1.25em 1.5em 1.5em 1.5em;
@@ -300,6 +400,7 @@ pre, .mw-code {
 	position: relative;
 	line-height: @content-line-height;
 	font-size: @content-font-size;
+	z-index: 0;
 }
 
 .hoverbox {
