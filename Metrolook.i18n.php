@@ -33,6 +33,15 @@ $messages['diq'] = array(
 	'metrolook-guest' => 'Meyman',
 );
 
+/** English
+ * @author paladox
+ */
+$messages['en'] = array(
+	'skinname-metrolook' => 'Metrolook',
+	'metrolook-desc' => 'Metrolook skin for MediaWiki',
+	'metrolook-guest' => 'Guest',
+);
+
 /** 
  * @author Macofe
  */
@@ -56,13 +65,12 @@ $messages['fa'] = array(
 	'metrolook-guest' => 'مهمان',
 );
 
-/** English
- * @author paladox
+/** 
+ * @author McDutchie
  */
-$messages['en'] = array(
-	'skinname-metrolook' => 'Metrolook',
-	'metrolook-desc' => 'Metrolook skin for MediaWiki',
-	'metrolook-guest' => 'Guest',
+$messages['ia'] = array(
+	'metrolook-desc' => 'Apparentia Metrolook pro MediaWiki',
+	'metrolook-guest' => 'Hospite',
 );
 
 /** qqq
