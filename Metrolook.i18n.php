@@ -73,6 +73,21 @@ $messages['ia'] = array(
 	'metrolook-guest' => 'Hospite',
 );
 
+/** 
+ * @author MIKHEIL
+ */
+$messages['ka'] = array(
+	'metrolook-guest' => 'სტუმარი',
+);
+
+/** 
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'metrolook-desc' => 'De Bovverfläsch „Metrolook“ för et MehdijaWikki.',
+	'metrolook-guest' => 'Jaß',
+);
+
 /** qqq
  * @author paladox
  * @author Liuxinyu970226
