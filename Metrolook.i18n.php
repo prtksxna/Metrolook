@@ -111,6 +111,44 @@ $messages['lb'] = array(
 	'metrolook-guest' => 'Gaascht',
 );
 
+/** 
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'metrolook-desc' => 'Руво „Метроизглед“ за МедијаВики',
+	'metrolook-guest' => 'Гостин',
+);
+
+/** 
+ * @author C.R.
+ */
+$messages['nap'] = array(
+	'metrolook-desc' => "Skin Metrolook pe' MediaWiki",
+	'metrolook-guest' => 'Mmitato',
+);
+
+/** 
+ * @author Sjoerddebruin
+ */
+$messages['nl'] = array(
+	'metrolook-guest' => 'Gast',
+);
+
+/** 
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'metrolook-desc' => 'Skórka Metrolook dla MediaWiki',
+	'metrolook-guest' => 'Gość',
+);
+
+/** 
+ * @author Mordecool
+ */
+$messages['pt-br'] = array(
+	'metrolook-guest' => 'Hóspede',
+);
+
 /** qqq
  * @author paladox
  * @author Liuxinyu970226
