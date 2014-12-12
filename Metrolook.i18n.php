@@ -157,3 +157,35 @@ $messages['qqq'] = array(
 	'metrolook-desc' => '{{desc|name=Metrolook|url=http://www.mediawiki.org/wiki/Skin:Metrolook}}',
 	'metrolook-guest' => 'Used for descbribing you as a guest editing the wiki.\n{{Identical|Guest}}',
 );
+
+/** 
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'metrolook-desc' => 'Тема оформления MediaWiki Metrolook',
+	'metrolook-guest' => 'Гость',
+);
+
+/** 
+ * @author Okras
+ */
+$messages['ta'] = array(
+	'metrolook-desc' => 'Тема оформления MediaWiki Metrolook',
+	'metrolook-guest' => 'விருந்தினர்'
+);
+
+/** 
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'metrolook-desc' => '用于MediaWiki的Metrolook皮肤',
+	'metrolook-guest' => '访客'
+);
+
+/** 
+ * @author Cwlin0416
+ */
+$messages['zh-hant'] = array(
+	'metrolook-desc' => 'MediaWiki 的 Metrolook 外觀',
+	'metrolook-guest' => '訪客'
+);
