@@ -48,6 +48,14 @@ $messages['et'] = array(
 	'metrolook-guest' => 'Külaline',
 );
 
+/** 
+ * @author Reza1615
+ */
+$messages['fa'] = array(
+	'metrolook-desc' => 'پوسته مترلوک برای مدیاویکی'
+	'metrolook-guest' => 'مهمان',
+);
+
 /** English
  * @author paladox
  */
