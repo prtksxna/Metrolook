@@ -26,6 +26,28 @@ $messages['de'] = array(
 	'metrolook-guest' => 'Gast',
 );
 
+/** 
+ * @author Mirzali
+ */
+$messages['diq'] = array(
+	'metrolook-guest' => 'Meyman',
+);
+
+/** 
+ * @author Macofe
+ */
+$messages['es'] = array(
+	'metrolook-desc' => 'Apariencia Metrolook para MediaWiki',
+	'metrolook-guest' => 'Invitado',
+);
+
+/** 
+ * @author Snowstormer
+ */
+$messages['et'] = array(
+	'metrolook-guest' => 'Külaline',
+);
+
 /** English
  * @author paladox
  */
