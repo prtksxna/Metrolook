@@ -66,6 +66,22 @@ $messages['fa'] = array(
 );
 
 /** 
+ * @author Elisardojm
+ */
+$messages['gl'] = array(
+	'metrolook-desc' => 'Aparencia Metrolook para MediaWiki',
+	'metrolook-guest' => 'Invitado',
+);
+
+/** 
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'metrolook-desc' => 'עיצוב מטרולוק למדיה־ויקי',
+	'metrolook-guest' => 'אורח',
+);
+
+/** 
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -86,6 +102,13 @@ $messages['ka'] = array(
 $messages['ksh'] = array(
 	'metrolook-desc' => 'De Bovverfläsch „Metrolook“ för et MehdijaWikki.',
 	'metrolook-guest' => 'Jaß',
+);
+
+/** 
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'metrolook-guest' => 'Gaascht',
 );
 
 /** qqq
