@@ -61,7 +61,7 @@ $messages['et'] = array(
  * @author Reza1615
  */
 $messages['fa'] = array(
-	'metrolook-desc' => 'پوسته مترلوک برای مدیاویکی'
+	'metrolook-desc' => 'پوسته مترلوک برای مدیاویکی',
 	'metrolook-guest' => 'مهمان',
 );
 
