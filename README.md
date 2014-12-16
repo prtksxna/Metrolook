@@ -28,7 +28,7 @@ https://github.com/paladox2015/Metrolook/tree/REL1_21
 
 Please be aware that there are issues in the codes if you see any could you point it out it would help. and there are things like logos already set sorry i will put a setting there.
 
-A working demo of the skin is available at http://pidgi.net/metrolooktest/index.php/Main_Page . This is currently using MediaWiki 1.25wmf3 and version 3.0 beta 9 of the master branch of the skin.
+A working demo of the skin is available at http://www.pidgi.net/metrolooktest/index.php/Main_Page . This is currently using MediaWiki 1.25wmf12 and version 3.0 beta 13 of the master branch of the skin.
 
 ## Installation
 
